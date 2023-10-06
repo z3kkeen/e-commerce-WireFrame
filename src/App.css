@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 78em;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  height: 8em;
+  width: 100%;
+  background-color: rgb(68, 68, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContent {
+  height: 8em;
+  width: 70%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.headerImg {
+  width: 40px;
+}
+
+.new {
+  font-size: 25px;
+}
+
+.line {
+  min-width: 3px;
+  height: 3em;
+  background-color: white;
+}
+
+.siteName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.siteName p {
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+.siteName h1 {
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+main {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.topDiv {
+  width: 90%;
+  background-color: #8C8C8C;
+  padding: 2em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.bottomDiv {
+  width: 100%;
+  background-color: #B0B0B0;
+  padding: 2em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+.divHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divHeader h2 {
+  font-size: 2rem;
+}
+
+.divHeader p {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.topDiv .itemList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.bottomDiv .itemList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.topDiv .itemList .item {
+  width: 16em;
+  background-color: #D9D9D9;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.bottomDiv .itemList .item {
+  width: 16em;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.item p {
+  padding: 5px;
+  font-size: 1.1rem;
+  color: #8C8C8C;
+}
+
+.topDiv img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.bottomDiv img {
+  width: 80%;
+  border-radius: 5px;
+}
