@@ -1,11 +1,9 @@
-// import { useState } from 'react'
-import './App.css'
-import Header from './components/Header'
-import Product from './components/Product'
+import React from 'react'
+import './css/Home.css'
+import Header from '../components/Header'
+import Product from '../components/home/Product'
 
-function App() {
-
-
+export function Home() {
   return (
     <>
       <div className="body">
@@ -42,6 +40,9 @@ function App() {
               <Product/>
               <Product/>
               <Product/>
+              <Product/>
+              <Product/>
+              <Product/>
             </div>
           </div>
         </main>
@@ -49,5 +50,3 @@ function App() {
     </>
   )
 }
-
-export default App

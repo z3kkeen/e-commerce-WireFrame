@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .body {
   height: 78em;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(255, 255, 255);
 }
 
@@ -30,11 +31,59 @@ header {
 }
 
 .headerImg {
+  width: 30px;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2.7em;
+  transition: 0.1s;
+  background: url("public/icon profile.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+.profile:hover {
   width: 40px;
+  height: 40px;
+  transition: 0.1s;
+  box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+  border-radius: 7px;
+  background: url("public/icon profile 2.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.checkout {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2.7em;
+  transition: 0.1s;
+  background: url("public/icon shopping cart.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+.checkout:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.1s;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+  border-radius: 7px;
+  background: url("public/icon shopping cart 2.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.checkoutA {
+  margin: 0;
 }
 
 .new {
   font-size: 25px;
+  cursor:alias;
 }
 
 .line {
@@ -48,11 +97,13 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor:alias;
 }
 
 .siteName p {
   letter-spacing: 5px;
   font-size: 20px;
+  cursor:alias;
 }
 
 .siteName h1 {
@@ -72,10 +123,8 @@ main {
 }
 
 .topDiv {
-  width: 90%;
   background-color: #8C8C8C;
-  padding: 2em;
-  padding-bottom: 3em;
+  padding: 3em 6em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +142,6 @@ main {
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  margin-bottom: 2em;
 }
 
 .divHeader {
@@ -123,11 +171,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 3em;
 }
 
 .topDiv .itemList .item {
-  width: 16em;
   background-color: #D9D9D9;
   padding: 10px;
   display: flex;
@@ -139,29 +187,84 @@ main {
 }
 
 .bottomDiv .itemList .item {
-  width: 16em;
-  background-color: #ffffff;
+  background-color: #dbdbdb;
+  padding: 10px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+.hr {
+  height: 2px;
+  width: 110%;
+  border: none;
+  background-color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.topDiv .itemList .itemInfo .itemName {
+  padding: 5px;
+  font-size: 2.5rem;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #808080;
+}
+
+.topDiv .itemList .itemInfo .itemStock {
+  padding: 2px 5px;
+  font-size: 1.1rem;
+  color: #8C8C8C;
+}
+
+.topDiv .itemList .itemInfo .itemPrice {
+  padding: 2px 5px;
+  font-size: 1.5rem;
+  color: #8C8C8C;
+}
+
+.bottomDiv .itemList .itemInfo .itemName {
+  padding: 5px;
+  font-size: 2rem;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #808080;
+}
+
+.bottomDiv .itemList .itemInfo .itemStock {
+  padding: 2px 5px;
+  font-size: 1.1rem;
+  color: #8C8C8C;
+}
+
+.bottomDiv .itemList .itemInfo .itemPrice {
+  padding: 2px 5px;
+  font-size: 1.5rem;
+  color: #8C8C8C;
+}
+
+.topDiv .itemList .itemInfo {
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 7px;
-  font-weight: 500;
 }
 
-.item p {
-  padding: 5px;
-  font-size: 1.1rem;
-  color: #8C8C8C;
+.bottomDiv .itemList .itemInfo {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .topDiv img {
-  width: 100%;
+  width: 15em;
   border-radius: 5px;
 }
 
 .bottomDiv img {
-  width: 80%;
+  width: 10em;
   border-radius: 5px;
 }
+

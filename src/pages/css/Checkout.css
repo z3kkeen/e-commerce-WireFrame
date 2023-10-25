@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.headerContent {
+  height: 8em;
+  width: 70%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.headerImg {
+  width: 30px;
+}
+
+.profile {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2.7em;
+  transition: 0.1s;
+  background: url("public/icon profile.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+.profile:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.1s;
+  box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+  border-radius: 7px;
+  background: url("public/icon profile 2.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.checkout {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 2.7em;
+  transition: 0.1s;
+  background: url("public/icon shopping cart.png");
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+.checkout:hover {
+  width: 40px;
+  height: 40px;
+  transition: 0.1s;
+  padding: 10px;
+  box-shadow: 0 0 10px 1px rgb(255, 255, 255);
+  border-radius: 7px;
+  background: url("public/icon shopping cart 2.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
+
+.checkoutA {
+  margin: 0;
+}
+
+.new {
+  font-size: 25px;
+  cursor:alias;
+}
+
+.line {
+  min-width: 3px;
+  height: 3em;
+  background-color: white;
+}
+
+.siteName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor:alias;
+}
+
+.siteName p {
+  letter-spacing: 5px;
+  font-size: 20px;
+  cursor:alias;
+}
+
+.siteName h1 {
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  gap: 3em;
+}
+
+.itemsDisplay {
+  width: 50em;
+  height: 50em;
+  background-color: #B8B8B8;
+  padding: 6em 6em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.paymentDiv h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.itemsDisplay img {
+  width: 18em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yourItems {
+  color: white;
+}
+
+.divHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paymentDiv {
+  background-color: #7B7B7B;
+  padding: 3em;
+  height: 60em;
+}
+
+.credInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flatLine {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 33em;
+  height: 3px;
+  margin-bottom: 3em;
+}
+
+.longInput {
+  width: 100%;
+}
+
+.shortInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

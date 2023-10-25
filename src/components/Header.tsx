@@ -9,14 +9,18 @@ export default function Header() {
         <div className="line"></div>
         <img className="headerImg" src="public\icon home.png" alt="home button" />
         <div className="line"></div>
-        <img className="headerImg" src="public\icon profile.png" alt="profile" />
+        <a href="/register">
+          <div className="profile"></div>
+        </a>
 
         <div className="siteName">
           <p>SITE</p>
           <h1>NAME</h1>
         </div>
 
-        <img className="headerImg" src="public\icon shopping cart.png" alt="shopping cart" />
+        <a className="checkoutA" href="/checkout">
+          <div className="checkout"></div>
+        </a>
         <div className="line"></div>
         <img className="headerImg" src="public\icon menu.png" alt="options" />
       </div>
