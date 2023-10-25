@@ -37,7 +37,7 @@ header {
 .profile {
   width: 35px;
   height: 35px;
-  margin-bottom: 2.7em;
+  margin-top: 2.7em;
   transition: 0.1s;
   background: url("public/icon profile.png");
   background-size: 35px;
@@ -47,6 +47,7 @@ header {
 .profile:hover {
   width: 40px;
   height: 40px;
+  margin-top: 2.7em;
   transition: 0.1s;
   box-shadow: 0 0 10px 1px rgb(255, 255, 255);
   border-radius: 7px;
@@ -58,7 +59,7 @@ header {
 .checkout {
   width: 35px;
   height: 35px;
-  margin-bottom: 2.7em;
+  margin-top: 2.7em;
   transition: 0.1s;
   background: url("public/icon shopping cart.png");
   background-size: 35px;
@@ -68,6 +69,7 @@ header {
 .checkout:hover {
   width: 40px;
   height: 40px;
+  margin-top: 2.7em;
   transition: 0.1s;
   padding: 10px;
   box-shadow: 0 0 10px 1px rgb(255, 255, 255);
