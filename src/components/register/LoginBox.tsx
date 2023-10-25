@@ -15,7 +15,7 @@ export default function LoginBox() {
             <button className="subButton" type="submit">Sign Up</button>
         </div>
 
-        <a href="/">
+        <a href="/" className="skipReg">
             <p><u>no thanks, skip to store</u></p>
         </a>
     </div>

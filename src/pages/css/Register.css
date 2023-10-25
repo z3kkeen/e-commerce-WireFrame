@@ -80,14 +80,14 @@ input {
     color: rgba(0, 0, 0, 0.498);
 }
 
-a, a:visited {
+.skipReg, .skipReg:visited {
     align-self: flex-end;
     margin-right: 5em;
     color: #9a9a9a;
     font-weight: 400;
 }
 
-a p:hover {
+.skipReg p:hover {
     color: #636363;
     transition: 0.1s;
 }

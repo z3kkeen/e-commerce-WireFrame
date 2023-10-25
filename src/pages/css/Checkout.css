@@ -87,13 +87,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  cursor:alias;
+  cursor: pointer;
 }
 
 .siteName p {
   letter-spacing: 5px;
   font-size: 20px;
-  cursor:alias;
+  cursor: pointer;
 }
 
 .siteName h1 {
@@ -181,4 +181,15 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.goHome {
+  color: white;
+  text-decoration: none;
+}
+
+.goHome:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }

@@ -13,10 +13,13 @@ export default function Header() {
           <div className="profile"></div>
         </a>
 
-        <div className="siteName">
-          <p>SITE</p>
-          <h1>NAME</h1>
-        </div>
+        <a href="/" className="goHome">
+          <div className="siteName">
+            <p>SITE</p>
+            <h1>NAME</h1>
+          </div>
+        </a>
+        
 
         <a className="checkoutA" href="/checkout">
           <div className="checkout"></div>
